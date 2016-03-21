@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BNET_TEST_TKH1511</string>
+
+    <string name="add_note">Добавить запись</string>
+    <string name="cancel">Отменить</string>
+</resources>

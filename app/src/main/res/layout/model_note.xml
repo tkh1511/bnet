@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground">
+
+        <TextView
+            android:id="@+id/tvNoteDateCreation_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/primary_text_default_material_light"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/tvNoteDateModify_model"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/tvNoteDateModify_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textSize="16sp"
+            android:textColor="@color/primary_text_default_material_light"
+            android:layout_alignParentRight="true"
+            android:layout_margin="16dp"/>
+
+
+        <TextView
+            android:id="@+id/tvNoteBody200simbols"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Body text"
+            android:textSize="14sp"
+            android:textColor="@color/secondary_text_default_material_light"
+            android:layout_marginLeft="16dp"
+            android:layout_below="@+id/tvNoteDateCreation_model"
+            android:layout_alignParentLeft="true"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/separator"
+            android:layout_height="1dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
